@@ -3,13 +3,13 @@ import {BrowserModule} from '@angular/platform-browser';
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
-import {RendererComponent} from './renderer/renderer.component';
+import {JsonRendererComponent} from './renderer/json-renderer.component';
 import {CommonModule} from "@angular/common";
 
 @NgModule({
   declarations: [
     AppComponent,
-    RendererComponent
+    JsonRendererComponent
   ],
   imports: [
     BrowserModule,
